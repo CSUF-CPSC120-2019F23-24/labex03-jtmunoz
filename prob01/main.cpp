@@ -6,9 +6,9 @@ int main()
 {
   // TODO#1: try changing these values to others found in the ASCII character set
   // The class Quick Reference Guide contains this chart on page 5
-  char my_char1 = 67;   // decimal
-  char my_char2 = 0x43; // hex
-  char my_char3 = 'C';  // character
+  char my_char1 = 74;   // decimal
+  char my_char2 = 0x4A; // hex
+  char my_char3 = 'J';  // character
 
   std::cout << "Char1: " << my_char1 << std::endl;
   std::cout << "Char2: " << my_char2 << std::endl;
