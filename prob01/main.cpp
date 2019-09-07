@@ -20,7 +20,15 @@ int main()
   // add 3 more cout statements that all print the same thing - a plus sign
   // however, use a different method to do so for each cout statement
   // hint: use the ASCII character set
-  std::cout << "+" << std::endl;
+  std::cout << "O" << std::endl;
+
+  char new_char1 = 79;
+  char new_char2 = 0x4F;
+  char new_char3 = 'O';
+
+  std::cout << new_char1 << std::endl;
+  std::cout << new_char2 << std::endl;
+  std::cout << new_char3 << std::endl;
 
   std::cout << std::endl; // blank line to separate the different exercises
 
