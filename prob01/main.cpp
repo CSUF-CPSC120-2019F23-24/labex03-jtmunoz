@@ -1,6 +1,8 @@
 // This program tests output on the ASCII character set, and on the sizeof operator.
 
 #include <iostream>
+#include <string>
+
 
 int main()
 {
@@ -41,14 +43,14 @@ int main()
 
   // TODO#4: try changing the variable types and the data types in the
   // statements below to see what is returned by the sizeof operator
-  bool my_bool = 1;
-  std::cout << my_bool << ' ' << sizeof(my_bool) << '\n';
-  short my_int = 1;
-  std::cout << my_int << ' ' << sizeof(my_int) << '\n';
+  std::string my_string = "Jordan";
+  std::cout << my_string << ' ' << sizeof(my_string) << '\n';
+  double my_float = 33.5;
+  std::cout << my_float << ' ' << sizeof(my_float) << '\n';
 
-  double amount;
-  std::cout << "A float is stored in " << sizeof(float) << " bytes\n";
-  std::cout << "The variable \"amount\" is stored in " << sizeof(amount) << " bytes\n";
+  std::string new_string;
+  std::cout << "A string is stored in " << sizeof(std::string) << " bytes\n";
+  std::cout << "The variable \"new_string\" is stored in " << sizeof(new_string) << " bytes\n";
 
   return 0;
 }
